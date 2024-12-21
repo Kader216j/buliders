@@ -1,0 +1,118 @@
+.nav-item:hover:not(.active){
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.container1 .row1{
+    position: relative;
+    z-index: 1;
+    top: 0;
+    
+    margin-top: -180px;
+    margin-left: 200px;
+    
+   
+}
+
+.contaiener5{
+    margin-top: 350px;
+}
+
+.service-box{
+    padding: 50px 20px 42px 30px;
+    border-radius: 15px;
+    display: inline-block;
+    background: var(--e-global-color-white);
+    border-top: 2px solid black;
+    transition: all 0.3s ease-in-out;
+}
+.container5 .row2{
+    display: flex;
+    gap: 50px;
+    padding: 50px 250px;
+}
+
+.service-box:hover:not(.active){
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container7{
+    background-color: #2f2f2f;
+}
+.container6{
+    padding: 50px 150px;
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+}
+.container6 .row1 .column2{
+    display: flex;
+    gap: 30px;
+}
+.container6 .row1{
+    width: 33%;
+}
+.container6 .row2{
+    width: 20%;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.container6 .row3{
+    margin-top: 50px;
+}
